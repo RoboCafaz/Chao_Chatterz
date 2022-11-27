@@ -1,0 +1,42 @@
+name: Install BYOND
+
+inputs:
+  major:
+    description: "Major version of BYOND to download"
+    default: "514"
+    required: false
+    type: string
+  minor:
+    description: "Minor version of BYOND to download"
+    default: "1589"
+    required: false
+    type: string
+
+runs:
+  using: composite
+  steps:
+    - name: Install 32-bit Runtimes
+      # BYOND has no plans to release a 64-bit runtime so we need to support 32-bit on
+      #   our build image.
+      run: |
+        sudo dpkg --add-architecture i386 \
+          && sudo apt update \
+          && sudo apt install libstdc++6:i386
+      shell: bash
+
+    - name: Download BYOND
+      # https://www.byond.com/download/build/LATEST/
+      run: wget https://www.byond.com/download/build/${{ inputs.major }}/${{ inputs.major }}.${{ inputs.minor }}_byond_linux.zip -O byond.zip
+      shell: bash
+
+    - name: Install BYOND
+      run: |
+          unzip byond.zip \
+            && cd ./byond \
+            && make here \
+            && echo "BYOND_SYSTEM=$PWD" >> $GITHUB_ENV \
+            && echo "$PWD/bin" >> $GITHUB_PATH \
+            && echo "LD_LIBRARY_PATH=$PWD/bin" >> $GITHUB_ENV \
+            && echo "MANPATH=$PWD/man" >> $GITHUB_ENV \
+            && cd ..
+      shell: bash

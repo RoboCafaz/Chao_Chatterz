@@ -1,0 +1,33 @@
+name: Build
+
+on:
+  pull_request:
+    branches: master
+  push:
+    branches: master
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install BYOND
+        uses: ./.github/actions/install-byond
+
+      - name: Prepare code
+        uses: ./.github/actions/prepare-code
+
+      - name: Compile Code
+        run: DreamMaker "Chao Chatterz 2.dme" -clean -verbose
+        shell: bash
+
+      - name: Upload Resource Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          path: Chao Chatterz 2.rsc
+
+      - name: Upload Byte-Code Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          path: Chao Chatterz 2.dmb

@@ -1,0 +1,11 @@
+name: Prepare Code
+
+runs:
+  using: composite
+  steps:
+    - name: Remove Debug Flag
+      uses: jacobtomlinson/gha-find-replace@v2
+      with:
+        find: "#define DEBUG"
+        replace: "// Production-ready release"
+        include: "*.dme"

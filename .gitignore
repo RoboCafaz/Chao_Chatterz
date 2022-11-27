@@ -1,3 +1,6 @@
+# Ignore save data
+Save Data/
+
 #ignore misc BYOND files
 *.log
 *.int
