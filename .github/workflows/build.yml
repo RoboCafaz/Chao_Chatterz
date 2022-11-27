@@ -17,6 +17,9 @@ jobs:
 
       - name: Prepare code
         uses: ./.github/actions/prepare-code
+        with:
+          HUB_ID: ${{ secrets.HUB_ID }}
+          HUB_PASSWORD: ${{ secrets.HUB_PASSWORD }}
 
       - name: Compile Code
         run: DreamMaker "Chao Chatterz 2.dme" -clean -verbose

@@ -1,7 +1,7 @@
-var/list/PermaBanned = list("{!!!}")
-var/list/IPBanned = list("{!!!}","{!!!}")
-var/list/hostban = list("{!!!}")
-var/list/hostbanIP = list("{!!!}")
+var/list/PermaBanned = list()
+var/list/IPBanned = list()
+var/list/hostban = list()
+var/list/hostbanIP = list()
 var/list/serverbanned = list()
 var/list/pagerbans = world.GetConfig("keyban")
 

@@ -1,8 +1,8 @@
 world
 	name = "Chao Chatterz"
 	view = 9
-	hub = "{!!!}"
-	hub_password = "{!!!}"
+	hub = "##HUB_ID##"
+	hub_password = "##HUB_PASSWORD##"
 	loop_checks=0
 	version = 0
 	mob = /mob/startup/Login
@@ -14,7 +14,7 @@ var
 	mapcode = "C2Wver07"
 	tilcode = "C2Tver07"
 
-var/date = "{!!!}"
+var/date = "##DATE##"
 
 proc	//-- World Status
 	Getstats()
