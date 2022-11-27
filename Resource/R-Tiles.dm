@@ -489,31 +489,31 @@ obj
 	DDR_Machine
 	Deans_Chair
 		layer = 3
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		name = "Gold Dean's Chair"
 		icon_state = "1"
 		density = 1
 	Deans_Chair
 		layer = 3
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		icon_state = "2"
 		name = "Gold Dean's Chair"
 		density = 1
 	Deans_Chair
 		layer = 3
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		name = "Gold Dean's Chair"
 		icon_state = "3"
 		density = 1
 	Deans_Chair
 		layer = 3
 		name = "Gold Dean's Chair"
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		icon_state = "4"
 		density = 1
 	Deans_Seat
 		layer = 3
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		name = "Gold Dean's Chair"
 		icon_state = "5"
 		density = 1
@@ -540,82 +540,82 @@ obj
 
 	Deans_Chair
 		layer = 3
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		name = "Gold Dean's Chair"
 		icon_state = "6"
 		density = 1
 	Deans_Chair
 		layer = 3
 		name = "Gold Dean's Chair"
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		icon_state = "7"
 	Deans_Chair
 		layer = 3
 		name = "Gold Dean's Chair"
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		icon_state = "8"
 	Deans_Chair
 		layer = 3
 		name = "Gold Dean's Chair"
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		icon_state = "9"
 	Exgears_Chair
 		layer = 3
 		name = "Chair"
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		icon_state = "Exgear"
 		density = 1
 	Dakaggos_Chair
 		layer = 3
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		name = "Chair"
 		icon_state = "Daka"
 		density = 1
 	Cherrys_Chair
 		layer = 3
 		name = "Chair"
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		icon_state = "Cherry"
 		density = 1
 	Toy_Dragons_Chair
 		layer = 3
 		name = "Chair"
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		icon_state = "Toy"
 		density = 1
 	Jaces_Chair
 		layer = 3
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		name = "Chair"
 		icon_state = "Jace"
 		density = 1
 	Boreds_Chair
 		layer = 3
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		name = "Chair"
 		icon_state = "Bored"
 		density = 1
 	Buffys_Chair
 		layer = 3
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		name = "Chair"
 		icon_state = "Buffy"
 		density = 1
 	Drackons_Chair
 		layer = 3
 		name = "Chair"
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		icon_state = "Drackon"
 		density = 1
 	Themaggots_Chair
 		layer = 3
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		name = "Chair"
 		icon_state = "Maggots"
 		density = 1
 	Bunnies_Chair
 		layer = 3
-		icon = 'Resource/Chair.dmi'
+		icon = 'Resource/chair.dmi'
 		name = "Chair"
 		icon_state = "Bunnie"
 		density = 1
@@ -709,60 +709,60 @@ obj
 		icon_state = "LogF"
 	Head_Board
 		layer = 3
-		icon = 'Resource/Bed.dmi'
+		icon = 'Resource/bed.dmi'
 		icon_state = "Bed U"
 		density = 1
 	Bed_Center
-		icon = 'Resource/Bed.dmi'
+		icon = 'Resource/bed.dmi'
 		layer = 3
 		icon_state = "Bed C"
 	Bed_Covers
 		layer = 7
-		icon = 'Resource/Bed.dmi'
+		icon = 'Resource/bed.dmi'
 		icon_state = "Bed Cover"
 	Bed_Bottom
 		layer = 3
-		icon = 'Resource/Bed.dmi'
+		icon = 'Resource/bed.dmi'
 		icon_state = "Bed D"
 		density = 1
 	Classy_Head_Board
 		layer = 3
-		icon = 'Resource/Bed.dmi'
+		icon = 'Resource/bed.dmi'
 		icon_state = "Bed2U"
 		density = 1
 	Classy_Bed_Center
-		icon = 'Resource/Bed.dmi'
+		icon = 'Resource/bed.dmi'
 		layer = 3
 		icon_state = "Bed2C"
 	Classy_Bed_Covers
-		icon = 'Resource/Bed.dmi'
+		icon = 'Resource/bed.dmi'
 		layer = 7
 		icon_state = "Bed 2 Cover"
 	Classy_Bed_Bottom
-		icon = 'Resource/Bed.dmi'
+		icon = 'Resource/bed.dmi'
 		layer = 3
 		icon_state = "Bed2D"
 		density = 1
 	Kiddy_Head_Board
 		layer = 3
-		icon = 'Resource/Bed.dmi'
+		icon = 'Resource/bed.dmi'
 		icon_state = "Bed3U"
 		density = 1
 	Kiddy_Bed_Center
-		icon = 'Resource/Bed.dmi'
+		icon = 'Resource/bed.dmi'
 		layer = 3
 		icon_state = "Bed3C"
 	Kiddy_Bed_Covers
-		icon = 'Resource/Bed.dmi'
+		icon = 'Resource/bed.dmi'
 		layer = 7
 		icon_state = "Bed 3 Cover"
 	Kiddy_Bed_Bottom
-		icon = 'Resource/Bed.dmi'
+		icon = 'Resource/bed.dmi'
 		layer = 3
 		icon_state = "Bed3D"
 		density = 1
 	Teddy_Bear
-		icon = 'Resource/Bed.dmi'
+		icon = 'Resource/bed.dmi'
 		layer = 3
 		icon_state = "Bear"
 		density = 1
@@ -1030,7 +1030,7 @@ obj
 obj/warps
 	Warp
 		layer = 4
-		icon = 'resource/metaldoor.dmi'
+		icon = 'resource/metal-door.dmi'
 		icon_state = "warp"
 		density = 1
 		verb
@@ -1144,14 +1144,14 @@ obj/door
 		density = 1
 		opacity = 1
 	Metal_Door
-		icon = 'resource/metaldoor.dmi'
+		icon = 'resource/metal-door.dmi'
 		icon_state = "doorshut"
 		layer = 4
 		name = "Metal Door"
 		density = 1
 		opacity = 1
 	Garage_Door
-		icon = 'resource/garagedoor.dmi'
+		icon = 'resource/garage-door.dmi'
 		icon_state = "doorshut"
 		layer = 7
 		name = "Garage Door"
@@ -1212,12 +1212,12 @@ obj/door
 		src.icon_state = "doorshut"
 obj
 	Icon_Dispenser_Base
-		icon = 'Resource/IconDispenser.dmi'
+		icon = 'Resource/icon-dispenser.dmi'
 		icon_state = "Underlay"
 		layer = 4
 		pixel_y = -8
 	Icon_Dispenser
-		icon = 'Resource/IconDispenser.dmi'
+		icon = 'Resource/icon-dispenser.dmi'
 		icon_state = "Base"
 		layer = 7
 		density = 1
