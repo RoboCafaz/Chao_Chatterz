@@ -50,8 +50,8 @@ Log from <b>[time2text(creation,"Day, Month DD, YYYY at hh:mm:ss")]</b> to <b>[t
 <td colspawn="2"><font size="-1"><i>This includes chat spam, build spam and verbs. Punishment can range from a simple mute to a Perma-Ban..</i></td></tr>
 <tr><td><center>2.</td><td><center>Do Not Impersonate</td>
 <td colspawn="2"><font size="-1"><i>This includes using names, keys, icons or anything else that may mislead the community into believing you are someone else. It is illegal to impersonate anyone, this includes players and GMs alike.</i></td></tr>
-<tr><td><center>3.</td><td><center>Do Not Rip</td>
-<td colspawn="2"><font size="-1"><i>ChaoChatterz has 100% custom turf icons made from scratch. You can make your own, too. Anyone who is caught ripping will be reguarded as an enemy to the ChaoChatterz community; expect to have an unpleasant time on BYOND. Also, you may not rip the icons of players in-game. Anyone caught doing so will be banned.</i></td></tr>
+<tr><td><center>3.</td><td><center><s>Do Not Rip</s></td>
+<td colspawn="2"><font size="-1"><i><s>ChaoChatterz has 100% custom turf icons made from scratch. You can make your own, too. Anyone who is caught ripping will be reguarded as an enemy to the ChaoChatterz community; expect to have an unpleasant time on BYOND. Also, you may not rip the icons of players in-game. Anyone caught doing so will be banned.</s></i></td></tr>
 <tr><td><center>4.</td><td><center>Do Not Advertise</td>
 <td colspawn="2"><font size="-1"><i>Do not advertise other games or other ChaoChatterz servers in an attempt to steal users from ChaoChatterz or the server. Advertising your own work for the opinion of other players is okay, but expect to be banned if you are trying to recruit ChaoChatterz players to join your game. Whether or not you are trying to recruit is entirely up to the moderator; you will not have a say in this judgement.</i></td></tr>
 <tr><td><center>5.</td><td><center>No Adult Content</td>
