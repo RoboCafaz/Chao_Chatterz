@@ -3,14 +3,14 @@ obj/unique/GMchair
 		layer = 4
 		name = "Gold Dean's Chair"
 		icon = 'PNG/Deans Chair.png'
-		thatgm = "{!!!}"
+		thatgm = "golddean"
 		density = 1
 	Deans_Chair
 		layer = 4
 		name = "Gold Dean's Chair"
 		icon = 'PNG/Deans Chair.png'
 		icon_state = "1,1"
-		thatgm = "{!!!}"
+		thatgm = "golddean"
 		density = 1
 		verb
 			Sit()

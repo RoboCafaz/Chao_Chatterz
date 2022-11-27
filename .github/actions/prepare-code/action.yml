@@ -1,5 +1,15 @@
 name: Prepare Code
 
+inputs:
+  HUB_ID:
+    description: BYOND Hub Id for Chao Chatterz
+    required: true
+    type: string
+  HUB_PASSWORD:
+    description: "BYOND Hub Password for Chao Chatterz"
+    required: true
+    type: string
+
 runs:
   using: composite
   steps:
@@ -9,3 +19,29 @@ runs:
         find: "#define DEBUG"
         replace: "// Production-ready release"
         include: "*.dme"
+
+    - name: Set Hub Id
+      uses: jacobtomlinson/gha-find-replace@v2
+      with:
+        find: "##HUB_ID##"
+        replace: "${{ inputs.HUB_ID }}"
+        include: "*.dm"
+
+    - name: Set Hub Password
+      uses: jacobtomlinson/gha-find-replace@v2
+      with:
+        find: "##HUB_PASSWORD##"
+        replace: "${{ inputs.HUB_PASSWORD }}"
+        include: "*.dm"
+        
+    - name: Get Current Date
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+      shell: bash
+
+    - name: Set Modified Date
+      uses: jacobtomlinson/gha-find-replace@v2
+      with:
+        find: "##DATE##"
+        replace: "${{ steps.date.outputs.date }}"
+        include: "*.dm"

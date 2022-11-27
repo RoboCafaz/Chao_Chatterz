@@ -151,7 +151,7 @@ client/proc/SaveMob()
 	Getstats()
 	if(AGM.Find(gaka))
 		var/list/PEBE = list()
-		if(gaka == "{!!!}")
+		if(gaka == "golddean")
 			PEBE = golddeanInterns
 		if(PEBE)
 			for(var/mob/M in world)

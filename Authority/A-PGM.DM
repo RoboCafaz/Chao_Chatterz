@@ -1,14 +1,14 @@
-var/list/ADM = list("{!!!}")										//-- Administrator
-var/list/UHM = list("{!!!}")	//-- Universal Host Moderator
-var/list/AGM = list("{!!!}")	//-- Advanced Game Moderator
-var/list/PGM = list("{!!!}")	//-- Permanent Game Moderator
-var/list/TGM = list("{!!!}")	//-- Trial Game Moderator
-var/list/maskedip = list("{!!!}","127.0.0.1",null) // -- Hidden IPs
-var/list/SHM = list()	//-- Special Host Moderator
-var/list/SOS = list("") //-- SOS List
+var/list/ADM = list("golddean")	//-- Administrator
+var/list/UHM = list()			//-- Universal Host Moderator
+var/list/AGM = list()			//-- Advanced Game Moderator
+var/list/PGM = list()			//-- Permanent Game Moderator
+var/list/TGM = list()			//-- Trial Game Moderator
+var/list/maskedip = list("127.0.0.1",null) // -- Hidden IPs
+var/list/SHM = list()			//-- Special Host Moderator
+var/list/SOS = list()			//-- SOS List
 
 var/list/
-	golddeanInterns = list("{!!!}")
+	golddeanInterns = list()
 
 mob/Login()	//-- Gives the user his or her verbs.
 	src.verbs.Remove(typesof(/mob/ADM/verb/))
